@@ -18,11 +18,10 @@ This DMD was bought from DLi as a complete set 'D4100 Discovery kit' (DMD + cont
 ## Contents
 This repo contains the source code, and the main VI *ovenCtrl_Na.vi*.
 - *../src/* contains the VI and sub VIs.
-- *../ovenCtrl.lvproj* is the labView project file.
-- *../src/frontPanel/ovenCtrl_Na.vi* is the main VI to be run.
+- *../DMD.lvproj* is the labView project file.
+- *../SingleFrame.vi* is the main VI to be run.
 
 ## Getting Started
 - Clone this repository. 
-```git clone https://github.com/sbanik1/ovenCtrl <lcl_dir>```
-- Modify the sub VI *../src/subVIs/NaOvenTempToInflux.vi* to assign appropriate IP address, InfluxDB database and InfluxDB crendentials. 
-- Open *../ovenCtrl.lvproj* and run the code *ovenCtrl_Na.vi*
+```git clone https://github.com/sbanik1/autoDMD <lcl_dir>```
+- Open *../DMD.lvproj* and run the code *SingleFrame.vi*
