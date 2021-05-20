@@ -1,0 +1,5 @@
+SingleFrame.vi
+Simply run the code. The code will prompt you to enter an image. Choose your desired image. The image will be displayed indefinitely untill you hit "STOP". Make sure you hit stop and not the red button. Hitting the red button will not free the DMD RAM and you'll need to restart the computer.
+
+ImgSeqUpload.vi
+Save all your images in the Images folder and name them '0.png', '1.png' .... Labview will display these images in sequence according to the number on the file name.
